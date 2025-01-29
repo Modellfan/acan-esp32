@@ -4,8 +4,10 @@
 
 #include <ACAN_ESP32.h>
 
-#include <esp_private/periph_ctrl.h> // For ESP32 board manager
+//#include <esp_private/periph_ctrl.h> // For ESP32 board manager
 //#include <driver/periph_ctrl.h> // For M5Stack board manager
+#include "driver/twai.h"
+
 
 //----------------------------------------------------------------------------------------
 //   ESP32 Critical Section
